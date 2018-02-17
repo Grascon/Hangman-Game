@@ -1,0 +1,42 @@
+body, html {
+    background-image: url("../images/Soccer-Field.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-family: 'Dhurjati', sans-serif;
+}
+h1 {
+	font-family: 'Dhurjati', sans-serif;
+	font-size: 60px;
+	font-weight: bolder;
+	color: white;
+	font-weight: bold; 
+}
+h3 {
+	background-color: #355CBB;
+}
+.container {
+	margin: 25px auto;
+}
+.Title {
+	text-align: center;
+}
+.col-lg-12{
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+.col-md-6{
+	height: 350px;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	border: solid 2px white;
+	color: white;
+}
+#underscores, #victories, #defeats, #userGuesses, #userGuessesLeft {
+	background-color: #355CBB;
+	margin-bottom: 5px;
+}
